@@ -131,7 +131,7 @@ someFooable.name = "Bar2"
 
 As we can see, even though `name` is a get property requirement in the protocol, we are stil able to perform both get and set operations on `name` of `someFooable`. 
 
-![Image alt]({% asset_path 984.jpg %} "confused")
+![Image alt](/assets/posts/Swift_Protocol_Get_Set/984.jpg "confused")
 
 ## Explaination
 By making `name` as get property in `Fooable`, we are asking the conforming types to provide a getter method with name `name`. Fooable is not stopping the conforming types to set the property `name`. 
