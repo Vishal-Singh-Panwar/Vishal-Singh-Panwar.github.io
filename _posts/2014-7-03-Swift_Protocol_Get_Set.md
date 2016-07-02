@@ -133,7 +133,7 @@ As we can see, even though `name` is a get property requirement in the protocol,
 
 ![Image alt]({% asset_path 984.jpg %} "confused")
 
-## Explaination:
+## Explaination
 By making `name` as get property in `Fooable`, we are asking the conforming types to provide a getter method with name `name`. Fooable is not stopping the conforming types to set the property `name`. 
 
 The reason we are able to set `name` of `someFooable` is that since we have not explicity specified the type of `someFooable`, its type is being inferred as `Bar`. So we are actually setting `name` of `Bar` and not of `Fooable`. `name` is decalred as `var` in `Bar`, so we can set `name` in `someFooable`.
