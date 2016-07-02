@@ -3,7 +3,7 @@ layout: post
 title: Dropdown for iOS! [In Progress]
 ---
 
-[`VSDropdown`](https://github.com/Vishal-Singh-Panwar/VSDropdown) is an iOS drop-in class which can be used to show menu item below/above UIButton. This class adapts appearance of the button for which it is shown, which you can customise, and presents itself  with appropriate frame and direction. Irrespective of the button's hierarchy in the Window, the Dropdown takes touches everywhere on the screen. It dismisses itself when tapped outside its bounds.
+[`VSDropdown`](https://github.com/Vishal-Singh-Panwar/VSDropdown) is an iOS drop-in solution which can be used to show dropdown below/above any `UIView`. This class adapts appearance of the button, for which it is shown, which we can customise, and presents itself  with appropriate frame and direction. Irrespective of the button's hierarchy in the window, the dropdown takes touches everywhere on the screen. It dismisses itself when tapped outside its bounds.
 
 
 
