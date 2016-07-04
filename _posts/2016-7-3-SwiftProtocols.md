@@ -141,7 +141,7 @@ As we can see, even though `name` is a get property requirement in the protocol,
 ## Explaination
 By making `version` as get property in `VoiceAssistant`, we are asking the conforming types to provide a getter method with name `version`. `VoiceAssistant` is not stopping the conforming types to set the property `version`. 
 
-The reason we are able to set `version` of `voiceAssistant` is that since we have not explicity specified the type of `voiceAssistant`, its type is being inferred as `Siri`. So we are actually setting `version` of `Siri` and not of `VoiceAssistant`. `version` is decalred as `var` in `Siri`, so we can set `version` in `voiceAssistant`.
+The reason we are able to set `version` of `voiceAssistant` is that since we have not explicity specified the type of `voiceAssistant`, its type is being inferred as `Siri`. So we are actually setting `version` of `Siri` and not of `VoiceAssistant`. `version` is decalred as `var` in `Siri`, thats why we can set `version` in `voiceAssistant`.
 
 If we explicitly set the type of `voiceAssistant` to be `VoiceAssistant`, then compiler wont allow us to set the `version`, as `VoiceAssistant` only guarantees that a getter with `version` exists and has no knowledge about the setter. Its totally upto the conforming types to provide a setter or not for a get-only property requirement of a protocol.  
 
