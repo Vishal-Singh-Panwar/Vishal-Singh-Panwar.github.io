@@ -107,7 +107,7 @@ struct Siri: VoiceAssistant {
 
 ```
 
-## How *get* propeties are different from *get set* properties in a protocol?
+## How *get* properties are different from *get set* properties in a protocol?
 
 In this section, I will try to explain the difference between get propeties and get set properties.
 
