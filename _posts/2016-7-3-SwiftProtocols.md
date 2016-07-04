@@ -162,7 +162,7 @@ struct Siri: VoiceAssistant {
 
 var voiceAssistant: VoiceAssistant = Siri()
 voiceAssistant.voice = "Samantha"
-voiceAssistant.version = "2.0" // Compilation Error: cannot assign to property: 'name' is a get-only property
+voiceAssistant.version = "2.0" // Compilation Error: cannot assign to property: 'version' is a get-only property
 
 ```
 
