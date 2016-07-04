@@ -22,9 +22,9 @@ struct Siri: VoiceAssistant {
 
 ## Properties in protocols
 
-A protocol is set of rules. Any conforming type has to follow all the rules. As a part of rules, a protocol can require any conforming type to provide a property with a particular name and type. The conforming type can fulfill this requirement either by using a stored property or a computed property. To give some clarity, conforming type means the types (structs, classes, enums) which are conforing to a protocol. In the above code sample, `VoiceAssistant` is a protocol and `Siri` is the conforming type. Lets add some property requirement in `VoiceAssistant`.
+A protocol is set of rules. Any conforming type has to follow all the rules. As a part of rules, a protocol can require any conforming type to provide a property with a particular name and type. The conforming type can fulfill this requirement either by using a stored property or a computed property. To give some clarity, conforming type means the types (structs, classes, enums) which are conforming to a protocol. In the above code sample, `VoiceAssistant` is a protocol and `Siri` is the conforming type. Lets add some property requirement in `VoiceAssistant`.
 
-**NOTE: Property requirements in a protocol are always declared as variable properties.**
+**NOTE: Property requirements in a protocol are always declared as variable properties because they are declared as computed properties.**
 
 ```swift
 protocol VoiceAssistant {
