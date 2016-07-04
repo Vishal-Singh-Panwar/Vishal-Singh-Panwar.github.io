@@ -134,11 +134,11 @@ voiceAssistant.version = "2.0"
 
 ```
 
-As we can see, even though `name` is a get property requirement in the protocol, we are stil able to perform both get and set operations on `version` of `voiceAssistant`. 
+As we can see, even though `version` is a get property requirement in the protocol, we are stil able to perform both get and set operations on `version` of `voiceAssistant`. 
 
 ![Image alt](/assets/posts/Swift_Protocol_Get_Set/984.jpg "confused")
 
-## Explaination
+## Explanation
 By making `version` as get property in `VoiceAssistant`, we are asking the conforming types to provide a getter method with name `version`. `VoiceAssistant` is not stopping the conforming types to set the property `version`. 
 
 The reason we are able to set `version` of `voiceAssistant` is that since we have not explicity specified the type of `voiceAssistant`, its type is being inferred as `Siri`. So we are actually setting `version` of `Siri` and not of `VoiceAssistant`. `version` is decalred as `var` in `Siri`, thats why we can set `version` in `voiceAssistant`.
