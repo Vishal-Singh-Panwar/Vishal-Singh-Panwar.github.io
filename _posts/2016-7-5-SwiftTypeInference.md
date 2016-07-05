@@ -71,8 +71,13 @@ Where is the light?
 
 
 ## Debug
-
-Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. `Objective C` can not infer that the result expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0`. 
+```swift
+(UIColor *)colorWithRed:(CGFloat)red
+                    green:(CGFloat)green
+                     blue:(CGFloat)blue
+                    alpha:(CGFloat)alpha
+```
+The method expects a `CGFloat`. Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. `Objective C` can not infer that the result expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0`. 
 
 To make sure it works correctly, we have to make sure that we add a decimal in the division expression so that it performs floating point division and returns correct value.
 
@@ -86,7 +91,7 @@ To make sure it works correctly, we have to make sure that we add a decimal in t
 
 ## Using Swift type inference
 
-In `Swift`, we don't need to pass in a decimal number and the type is inferred by the type of argument in the function. The same method which was causing issue in `Objective C`, will give the desired result in `Swift`. 
+In `Swift`, we don't need to pass in a decimal number and the type is inferred by the type of argument in the function. The same method which was causing issue in `Objective C`, will give the desired result in `Swift`. Since we are passing the result of the expression to a function which expects `CGFloat`, the type is inferred as `CGFloat` and the it performs floating point division.
 
 ```swift
 
