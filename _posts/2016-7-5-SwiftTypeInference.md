@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swift type inference and simple UIColor convenience initialiser.
+title: Swift type inference and UIColor convenience initialiser.
 ---
 
 The Swift language and its type system incorporate a number of popular language features, including object-oriented programming via classes, function and operator overloading, subtyping, and constrained parametric polymorphism. Swift makes extensive use of type inference, allowing one to omit the types of many variables and expressions.
