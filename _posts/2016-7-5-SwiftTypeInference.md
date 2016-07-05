@@ -40,7 +40,10 @@ Lets go ahead and implement dark background.
 ```swift
 
 - (void)setDarkBackground {
-    [self.view setBackgroundColor: [UIColor colorWithRed:0/255 green:0/255 blue:0/255 alpha:1]];
+    [self.view setBackgroundColor: [UIColor colorWithRed:0/255 
+    												 green:0/255 
+    												 blue:0/255 
+    												 alpha:1]];
 }
 
 ```
@@ -57,7 +60,10 @@ Now lets implement light background **quickly**.
 ```swift
 
 - (void)setLightBackground {
-    [self.view setBackgroundColor: [UIColor colorWithRed:254/255 green:248/255 blue:220/255 alpha:1]];
+    [self.view setBackgroundColor: [UIColor colorWithRed:254/255 
+    												 green:248/255 
+    												 blue:220/255 
+    												 alpha:1]];
 }
 
 ```
@@ -84,7 +90,10 @@ To make sure it works correctly, we have to make sure that we add a decimal in t
 ```swift
 
 - (void)setLightBackground {
-    [self.view setBackgroundColor: [UIColor colorWithRed:254/255.0 green:248/255.0 blue:220/255.0 alpha:1]];
+    [self.view setBackgroundColor: [UIColor colorWithRed:254/255.0
+    												 green:248/255.0
+    												 blue:220/255.0
+    												 alpha:1]];
 }
 
 ```
@@ -96,7 +105,10 @@ In `Swift`, we don't need to pass in a decimal number and the type is inferred b
 ```swift
 
 func setLightBackground() {
-        view.backgroundColor = UIColor(red: 254/255, green: 248/255, blue: 220/255, alpha: 1)
+        view.backgroundColor = UIColor(red: 254/255, 
+        							   green: 248/255, 
+        							   blue: 220/255, 
+        							   alpha: 1)
     }
 
 ```
@@ -113,8 +125,14 @@ I usually add below extension in my projects which makes creating `UIColor` very
 ```swift
 
 extension UIColor {
-    convenience init(_ red: CGFloat, _ green: CGFloat, _ blue: CGFloat, _ alpha: CGFloat = 1) {
-        self.init(red: red/255, green: green/255, blue: blue/255, alpha: alpha)
+    convenience init(_ red: CGFloat,
+    				 _ green: CGFloat, 
+    				 _ blue: CGFloat, 
+    				 _ alpha: CGFloat = 1) {
+        self.init(red: red/255, 
+        		 green: green/255, 
+        		 blue: blue/255, 
+        		 alpha: alpha)
     }
 }
 
