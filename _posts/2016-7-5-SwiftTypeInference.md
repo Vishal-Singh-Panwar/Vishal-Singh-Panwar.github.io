@@ -72,7 +72,7 @@ Where is the light?
 
 ## Debug
 
-Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. Objective C can not infer that the result expression should be `CGFloat`. The expression 254/255 return result as NSInteger which is 0. 
+Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. Objective C can not infer that the result expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0`. 
 
 To make sure it works correctly, we have to make sure that we add a decimal in the division expression so that it performs floating point division and returns correct value.
 
