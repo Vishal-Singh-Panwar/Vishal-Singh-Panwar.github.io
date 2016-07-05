@@ -125,7 +125,7 @@ func setLightBackground() {
 
 ```
 
-As we can see, how succinct it has become to create a `UIColor`. Please share your thoughts and experience with `Swift` powerful feature of type inference.
+As we can see, how succinct it has become to create a `UIColor`. Share your thoughts and experience with `Swift`'s powerful feature of type inference.
 
 
 
