@@ -7,7 +7,7 @@ title: Swift protocols with 'get set' and 'get' properties.
 
 Lets get started with some fictitous example code.
 
-This is how we can decalre and conform to a simple protocol in Swift.
+This is how we can declare and conform to a simple protocol in Swift.
 
 ```swift
 protocol VoiceAssistant {
