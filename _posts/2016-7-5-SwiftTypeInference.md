@@ -86,7 +86,7 @@ To make sure it works correctly, we have to make sure that we add a decimal in t
 
 ## Using Swift type inference
 
-In `Swift`, we don't need to special decimal explicitly and is inferred by the type of argument in the function. The same method which was causing issue in `Objective C`, will give the desired result in `Swift`. 
+In `Swift`, we don't need to pass in a decimal number and the type is inferred by the type of argument in the function. The same method which was causing issue in `Objective C`, will give the desired result in `Swift`. 
 
 ```swift
 
