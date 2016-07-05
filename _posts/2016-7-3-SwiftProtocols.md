@@ -80,7 +80,7 @@ struct Cortana: VoiceAssistant {
         }
     }
 
-    var voice: Int {
+    var voice: String {
         get {
             return assistantVoice
         }
