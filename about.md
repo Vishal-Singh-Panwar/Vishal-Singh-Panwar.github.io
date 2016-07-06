@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Just another wannabe Software Engineer. I like building stuffs for iOS. I have not travelled a lot but I like travelling and exploring new places. Maybe some day, when the time is right, I will serve myself an expedition to the jungle. Till then, jekyll --serve my github page. I chose Jekyll over Wordpress because...damn it feels to be a Gangsta!. I dont really know.
+Just another wannabe Software Engineer. I like building stuffs for iOS. I have not travelled a lot but I like travelling and exploring new places. Maybe some day, when the time is right, I will serve myself an expedition to the jungle. Till then, jekyll --serve my github page. I chose Jekyll over Wordpress because...damn it feels good to be a Gangsta!. I dont really know.
 
 
 ### More Information
