@@ -105,7 +105,7 @@ func setLightBackground() {
 
 ## UIColor convenience initialiser
 
-We still need to do the do the division by 255 while creating a `UIColor`. Wouldn't it be nice if just need to pass the r, g, b values in the function to create a `UIColor`.
+We still need to do the do the division by 255 while creating a `UIColor`. Wouldn't it be nice if we just need to pass the r, g, b values in the function to create a `UIColor`.
 
 I usually add below extension in my projects which makes creating `UIColor` very convenient.
 
