@@ -77,7 +77,7 @@ Where is the light?
                      blue:(CGFloat)blue
                     alpha:(CGFloat)alpha
 ```
-The method expects a `CGFloat`. Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. `Objective C` can not infer that the result of the expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0` because in almost all languages, result of integer division is an integer. 
+The method expects `CGFloat`. Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. `Objective C` can not infer that the result of the expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0` because in almost all languages, result of integer division is an integer. 
 
 To make sure it works correctly, we have to make sure that we add a decimal in the division expression so that it performs floating point division and returns correct value.
 
