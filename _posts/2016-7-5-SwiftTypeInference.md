@@ -77,7 +77,7 @@ Where is the light?
                      blue:(CGFloat)blue
                     alpha:(CGFloat)alpha
 ```
-The method expects `CGFloat`. Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. `Objective C` can not infer that the result of the expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0` because in almost all languages, result of integer division is an integer. The method in lightBackground, therefore, is computed as:
+The method expects `CGFloat`. Since, we **quickly** implemented light background, we forgot to add decimal in the r, g, b values. `Objective C` can not infer that the result of the expression should be `CGFloat`. The expression `254/255` returns result as `NSInteger` which is `0` because in almost all languages, result of integer division is an integer. The method in `setLightBackground`, therefore, is computed as:
 
 ```swift
 
