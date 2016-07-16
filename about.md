@@ -13,4 +13,4 @@ I am a very secretive person. Opening up has caused me a lot of trouble lately. 
 ![Image alt](/assets/about_me/cheers.png "cheers")
 
 ### Contact me
-[vishal_singh@icloud.com](mailto:email@domain.com)
+[vishal_singh@icloud.com](mailto:vishal_singh@icloud.com)
