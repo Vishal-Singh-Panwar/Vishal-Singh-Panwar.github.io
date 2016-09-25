@@ -107,7 +107,6 @@ func setLightBackground() {
     }
 
 ```
-
 ![Image alt](/assets/posts/Type_Inference_UIColor/light.png "Light")
 
 ## UIColor convenience initialiser

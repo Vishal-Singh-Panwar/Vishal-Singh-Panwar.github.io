@@ -40,7 +40,6 @@ In the [sample](https://github.com/Vishal-Singh-Panwar/VSDropdown), there are bu
 
 
 
-How it looks?
 ==========
 ![Github Screenshots](https://raw.githubusercontent.com/Vishal-Singh-Panwar/VSDropdown/master/Screenshots/Combined.png "Combined") 
 
