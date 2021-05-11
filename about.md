@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I like to build stuffs.
+Building..
 
 
 ### More Information
